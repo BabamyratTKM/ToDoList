@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>  
+    <title>Task list 2023</title>
+  </head>
+  <body>
+    <header style="margin-top: 100px;;">
+      <h1>Task list 2023</h1>
+      <form id="new-task-from">
+        <input
+          type="text"
+          id="new-task-input"
+      
+        />
+        <input type="submit" id="new-task-submit" value="Add task"  style="width: 120px;"/>
+      </form>
+    </header>
+    <main>
+      <section class="task-list">
+        <h1>Task</h1>
+        <div id="tasks">
+          <!-- <div class="task">
+            <div class="content">
+              <input type="text" id="text" class="text" value="My shiny task" readonly />
+            </div>
+            <div class="actions">
+              <button class="Edit">Edit</button>
+              <button class="Delete">Delete</button>
+            </div>
+          </div> -->
+        </div>
+      </section>
+    </main>
+    <script src="./main.js"></script>
+  </body>
+</html>
